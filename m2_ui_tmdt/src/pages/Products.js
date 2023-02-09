@@ -293,7 +293,5 @@ export const Products = () => {
         </div>
       {/* product section end */}
       </div>
-
-
   )
 }

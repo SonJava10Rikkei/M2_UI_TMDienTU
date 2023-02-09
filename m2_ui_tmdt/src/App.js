@@ -7,11 +7,11 @@ import { Contact } from './pages/Contact';
 import { Products } from './pages/Products';
 import { Layout } from './components/layout/Layout';
 
-
 function App() {
   return (
     <>
       <div>
+
         <Routes>
           <Route element={<Layout />} >
             <Route path='/' element={<Home />} />

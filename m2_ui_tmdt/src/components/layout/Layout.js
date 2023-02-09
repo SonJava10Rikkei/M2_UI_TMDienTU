@@ -1,13 +1,15 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { Footter } from './Footter'
-import { Header } from './Header'
+import Header2 from './Header'
 export const Layout = () => {
   return (
-      <>
-          <Header/>
-          <Outlet />
-          <Footter/>
-    </>
+    <div className='container__gu__trend'>
+      {/* <Header /> */}
+      <Header2 />
+      {/* <Header/> */}
+      <Outlet />
+      <Footter />
+    </div>
   )
 }
